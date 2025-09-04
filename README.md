@@ -3,7 +3,6 @@
 Welcome to your next step toward JavaScript mastery! In this assignment, you'll explore essential concepts that form the backbone of interactive, dynamic web pages—functions, loops, and the Document Object Model (DOM). Ready to code like a pro? Let’s dive in.
 
 ---
-
 ## 🎯 Part 1: Mastering JavaScript Basics
 
 Start with the building blocks of JavaScript—variables, data types, operators, and conditionals. You’ll write a few simple programs that capture user input, make decisions using `if/else`, and output results using `console.log()` or by modifying the webpage content.

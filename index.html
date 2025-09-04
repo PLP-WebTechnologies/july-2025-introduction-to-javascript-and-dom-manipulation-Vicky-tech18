@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basics Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Javascript Practice Project</h1>
+    <!-- Part 1: User Input -->
+     <div>
+        <label for="username">Enter your name:</label>
+        <input type="text" id="username" placeholder="Your name">
+        <button onclick="greetUser()">Greet Me</button>
+     </div>
+     <p id="greeting"></p>
+
+     <!-- Part 2: Functions -->
+      <h2>Functions in Action</h2>
+      <!-- Function 1: Calculate Total -->
+       <div>
+        <input type="number" id="price" placeholder="Price">
+        <input type="number" id="quantity" placeholder="Quantity">
+        <button onclick="showTotal()">Calculate Total</button>
+       </div>
+       <p id="total-output"></p>
+
+       <!-- Function 2: Format Message -->
+        <div>
+            <input type="text" id="message" placeholder="Enter a message">
+            <button onclick="showFormattedMessage()">Format Message</button>
+        </div>
+        <p id="formatted-output"></p>
+
+        <!-- Part 3: Loop Demo -->
+         <h2>Countdown</h2>
+         <button onclick="startCountdown()">Start Countdown</button>
+         <ul id="countdown-list"></ul>
+
+         <!-- Part 4: DOM Manipulation -->
+          <h2>Toggle Message</h2>
+          <button id="toggle-btn">Show/Hide Message</button>
+          <p id="toggle-text" style="display:none;">Suprise! You toggled me.</p>
+    <script src="script.js"></script>
+</body>
+</html>
